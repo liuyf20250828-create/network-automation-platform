@@ -1,1 +1,24 @@
+devices:
+- name： core-huawei
+  host: 192.0.2.10
+  device_type: huawei
+  username: admin
+  password: CHANGE_ME
 
+- name： core-h3c
+  host: 192.0.2.11
+  device_type: hp_comware
+  username: admin
+  password: CHANGE_ME
+
+- name： core-cisco
+  host: 192.0.2.12
+  device_type: cisco_ios
+  username: admin
+  password: CHANGE_ME
+
+- name： core-zte
+  host: 192.0.2.13
+  device_type: zte-zxros
+  username: admin
+  password: CHANGE_ME
